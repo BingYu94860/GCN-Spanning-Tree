@@ -1,6 +1,22 @@
 # GCN-Spanning-Tree
 
-使用 Tensorflow 2.x
+###### 環境：
+
+1. 使用 Tensorflow 2.x
+2. 在 Anaconda 的 Jupyter Notebook 上執行
+3. 亦可以在 Colab上運行
+
+```python
+#### 掛接 Google 雲端硬碟 ####
+from google.colab import drive
+drive.mount('/content/drive')
+
+####　切換工作資料夾的目錄 ####
+# root 需要更改成 自己的 資料夾路徑，資料夾內放 所以的 *.py 與 *.ipynb
+root = "/content/drive/MyDrive/Colab Notebooks/GCN-Spanning-Tree"
+import os
+os.chdir(root)
+```
 
 
 
