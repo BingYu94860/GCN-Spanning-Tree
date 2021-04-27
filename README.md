@@ -12,7 +12,7 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 ####　切換工作資料夾的目錄 ####
-# root 需要更改成 自己的 資料夾路徑，資料夾內放 所以的 *.py 與 *.ipynb
+# root 需要更改成 自己的 資料夾路徑，並資料夾內放 所有 *.py 與 *.ipynb 的檔案。
 root = "/content/drive/MyDrive/Colab Notebooks/GCN-Spanning-Tree"
 import os
 os.chdir(root)
